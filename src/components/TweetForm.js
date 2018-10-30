@@ -9,7 +9,7 @@ const TweetForm = (props) => {
     return (
         <form onSubmit = {tweetSubmit} >
             <label>Enter Your Tweet</label>
-            <textarea maxlength = '140' />
+            <textarea maxLength = '140' />
             <button type = 'submit'>Submit</button> 
         </form>
     )

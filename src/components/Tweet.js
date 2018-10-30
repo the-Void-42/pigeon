@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Tweet = () => {
+const Tweet = (props) => {
     return (
-        <div></div>
+        <div>
+            <span>{props.author}</span>
+            <span>{props.createdDate}</span>
+            <p>{props.text}</p>
+        </div>
     )
 }
 
